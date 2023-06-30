@@ -1,8 +1,9 @@
 import mongoose from 'mongoose';
 
 const mongoConnect = async () => {
-  const db = mongoose.connect('mongodb://localhost/fav-plus-test-db');
-  return db;
+  const promise = mongoose.connect('mongodb://localhost/fav-plus-test-db').then((mongoose) => mongoose);
+  const connect = await promise;
+  return connect;
 };
 
 export default mongoConnect;
