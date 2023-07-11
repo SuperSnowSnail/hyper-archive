@@ -1,5 +1,6 @@
 'use client';
 import LinkBlock from '@/components/LinkBlock';
+import LinkBlockSkeleton from '@/components/LinkBlockSkeleton';
 import CategoryBtn from '@/components/CategoryBtn';
 import CategoryBtnSkeleton from '@/components/CategoryBtnSkeleton';
 import CategoriesContainer from '@/components/CategoriesContainer';
@@ -65,96 +66,19 @@ export default function Home() {
             <FontAwesomeIcon icon={faSpinner} spinPulse />
           </div>
         )}
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
-        <LinkBlock
-          link='https://www.twitch.tv/demondiceofficial'
-          title='demondiceofficial - Twitchhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-          description='demon ladyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh music person'
-          image='https://i.ytimg.com/vi/9AVSE4JghHE/maxresdefault.jpg'
-        />
+        {categories.length > 0 &&
+          categories
+            .find((category) => category._id === activeId)
+            .links.map((link) => (
+              <LinkBlock
+                key={link._id}
+                link={link.url}
+                title={link.title}
+                description={link.description}
+                image={link.imageUrl}
+              />
+            ))}
+        <LinkBlockSkeleton />
       </div>
     </main>
   );
