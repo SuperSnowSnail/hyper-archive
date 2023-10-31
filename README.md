@@ -7,7 +7,8 @@ Hyper Archive is a simple app that allows you to store and organize all your hyp
 
 ![Hyper_archive_demo](https://github.com/SuperSnowSnail/hyper-archive/assets/118603847/5973aeaa-b9d1-4e15-8b1c-4adf4977248c)
 
-TODOs:
+### TODOs:
+- Add set up guide
 - Make it possible to add and remove links
 - Make it possible to add and remove folders
 - Add drag-n-drop for links in folder
